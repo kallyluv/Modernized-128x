@@ -1,4 +1,4 @@
-<img height="400" alt="image" src="https://github.com/xJustJqy/Modernized-128x/blob/main/pack.png?raw=true" align="right">
+<img height="380" alt="image" src="https://github.com/xJustJqy/Modernized-128x/blob/main/pack.png?raw=true" align="right">
 
 # Modernized 128x
 
