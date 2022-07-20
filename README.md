@@ -1,5 +1,6 @@
 <img height="380" alt="image" src="https://github.com/xJustJqy/Modernized-128x/blob/main/pack.png?raw=true" align="right">
 
+[:heart: Sponsor me!](https://github.com/sponsors/xJustJqy)
 # Modernized 128x
 
 Modernized 128x is a texture pack for Minecraft: Java Edition version 1.19. It was forked from [ModernArch 128x](https://www.designio.graphics/community/downloads/modernarch-r178-1-18-128x-download) and modified to incorporate rendering & texure issue fixes aswell as adding/updating certain textures to cooperate with 1.19 blocks & tileset. To experience this texture pack's full potential, Optifine with Parallax-capable shaders is a must! This texture pack will be updated consistently. It is not well battle-tested, so if you uncover any bugs in the textures or have ideas feel free to open an Issue to have the matter addressed.
