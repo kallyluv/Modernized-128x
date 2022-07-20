@@ -1,0 +1,6 @@
+{
+    "parent":"block/leaves_bushy3",
+    "textures": {
+	"1": "block/acacia_leaves/acacia_leaves1"
+    }
+}

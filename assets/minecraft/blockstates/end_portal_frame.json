@@ -1,0 +1,13 @@
+{
+	"credit": "Written by Mickey Joe Alpha - http://YouTube.com/c/MickeyJoeAlpha-G",
+    "variants": {
+        "eye=false,facing=south": { "model": "block/end_portal_frame_south" },
+        "eye=false,facing=west": { "model": "block/end_portal_frame_west"},
+        "eye=false,facing=north": { "model": "block/end_portal_frame_north"},
+        "eye=false,facing=east": { "model": "block/end_portal_frame_east"},
+        "eye=true,facing=south": { "model": "block/end_portal_frame_filled_south" },
+        "eye=true,facing=west": { "model": "block/end_portal_frame_filled_west" },
+        "eye=true,facing=north": { "model": "block/end_portal_frame_filled_north" },
+        "eye=true,facing=east": { "model": "block/end_portal_frame_filled_east" }
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "": [
+			{ "model": "block/acacia_leaves", "weight": 1},
+			{ "model": "block/acacia_leaves1", "weight": 1},
+			{ "model": "block/acacia_leaves2", "weight": 1},
+			{ "model": "block/acacia_leaves3", "weight": 1}
+		]
+    }
+}

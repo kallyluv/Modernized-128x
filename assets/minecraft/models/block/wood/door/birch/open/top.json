@@ -1,0 +1,42 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"2": "block/cmodels/birch_door_handle",
+		"6": "block/cmodels/birch_door_top",
+		"particle": "block/cmodels/birch_door_top"
+	},
+	"elements": [
+		{
+			"from": [0.1, 9, 16],
+			"to": [0.9, 12, 16.1],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-7, 8, 8]},
+			"faces": {
+				"east": {"uv": [5.03125, 2.39063, 3.79688, 4.17188], "texture": "#2"},
+				"south": {"uv": [5.03125, 2.39063, 3.79688, 4.17188], "texture": "#2"},
+				"west": {"uv": [5.03125, 2.39063, 3.79688, 4.17188], "texture": "#2"},
+				"up": {"uv": [3.79688, 4.17188, 5.03125, 2.39063], "texture": "#2"},
+				"down": {"uv": [3.79688, 4.17188, 5.03125, 2.39063], "texture": "#2"}
+			}
+		},
+		{
+			"from": [0, 0, 0],
+			"to": [1, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 1, 15], "texture": "#6"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#6"},
+				"south": {"uv": [0, 0, 1, 15], "texture": "#6"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#6"},
+				"up": {"uv": [0, 0, 1, 14], "texture": "#6"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "group",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1]
+		}
+	]
+}

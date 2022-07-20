@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "": [
+			{ "model": "block/jungle_leaves", "weight": 1},
+			{ "model": "block/jungle_leaves1", "weight": 1},
+			{ "model": "block/jungle_leaves2", "weight": 1},
+			{ "model": "block/jungle_leaves3", "weight": 1}
+		]
+    }
+}

@@ -1,0 +1,37 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/c/MickeyJoeAlpha-G",
+	"parent": "block/block",
+	"textures": {
+		"particle": "block/end_portal_frame_side",
+		"bottom": "block/end_stone",
+		"top": "block/end_portal_frame_top_east",
+		"side": "block/end_portal_frame_side",
+		"eye": "block/end_portal_frame_eye"
+	},
+	"elements": [ 	 
+		{
+			"from": [ 0, 0, 0 ],
+			"to": [ 16, 13, 16 ],
+			"faces": {
+				"down": { "uv": [ 16, 16, 0, 0 ], "texture": "#bottom", "cullface": "down", "rotation": 270 },
+				"up": { "uv": [ 16, 16, 0, 0 ], "texture": "#top" },
+				"north": { "uv": [ 0, 3, 16, 16 ], "texture": "#side", "cullface": "north" },
+				"south": { "uv": [ 0, 3, 16, 16 ], "texture": "#side", "cullface": "south" },
+				"west": { "uv": [ 0, 3, 16, 16 ], "texture": "#side", "cullface": "west" },
+				"east": { "uv": [ 0, 3, 16, 16 ], "texture": "#side", "cullface": "east" }
+			}
+		},
+		{
+			"from": [ 4, 13, 4 ],
+			"to": [ 11.40625, 17, 12 ],
+			"rotation": { "origin": [ 4, 13, 4 ], "axis": "z", "angle": -22.5 },
+			"faces": {
+				"up": { "uv": [ 4, 4, 12, 12 ], "texture": "#eye", "rotation": 270 },
+				"north": { "uv": [ 4, 0, 12, 4 ], "texture": "#eye" },
+				"south": { "uv": [ 4, 0, 12, 4 ], "texture": "#eye" },
+				"west": { "uv": [ 4, 0, 12, 4 ], "texture": "#eye" },
+				"east": { "uv": [ 4, 0, 12, 4 ], "texture": "#eye" }
+			}
+		}
+	]
+}

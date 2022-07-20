@@ -1,0 +1,75 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"2": "block/cmodels/wire_on",
+		"2_1": "block/cmodels/wire_off",
+		"particle": "block/cmodels/wire_black"
+	},
+	"elements": [
+		{
+			"from": [7.5, 8.575, 0.85],
+			"to": [8.5, 16.875, 0.85],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8.025, 8.5, 0.4]},
+			"faces": {
+				"north": {"uv": [6.758, 0, 16, 0.907], "rotation": 270, "texture": "#2", "tintindex": 0},
+				"south": {"uv": [9.008, 0, 15.997, 0.907], "rotation": 270, "texture": "#2", "tintindex": 0}
+			}
+		},
+		{
+			"from": [7.5, 8.575, 0],
+			"to": [8.5, 16.85, 0.775],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8.025, 8.5, 0.3]},
+			"faces": {
+				"north": {"uv": [6.758, 0, 16, 0.907], "rotation": 270, "texture": "#particle"},
+				"east": {"uv": [6.758, 0, 16, 0.907], "rotation": 270, "texture": "#particle"},
+				"south": {"uv": [9.008, 0, 15.997, 0.907], "rotation": 270, "texture": "#2_1"},
+				"west": {"uv": [6.758, 0, 16, 0.907], "rotation": 90, "texture": "#particle"},
+				"up": {"uv": [14.852, 0, 16, 0.907], "rotation": 90, "texture": "#2_1"}
+			}
+		},
+		{
+			"from": [7.5, 0.875, 0.85],
+			"to": [8.5, 8.575, 0.85],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8.025, 8.5, 0.4]},
+			"faces": {
+				"north": {"uv": [6.758, 0, 16, 0.907], "rotation": 270, "texture": "#2", "tintindex": 0},
+				"south": {"uv": [9.782, 0, 15.996, 0.907], "rotation": 270, "texture": "#2", "tintindex": 0}
+			}
+		},
+		{
+			"from": [7.5, 0.85, 0],
+			"to": [8.5, 8.575, 0.775],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8.025, 8.5, 0.3]},
+			"faces": {
+				"north": {"uv": [6.758, 0, 16, 0.907], "rotation": 270, "texture": "#particle"},
+				"east": {"uv": [6.758, 0, 16, 0.907], "rotation": 270, "texture": "#particle"},
+				"south": {"uv": [9.782, 0, 15.996, 0.907], "rotation": 270, "texture": "#2_1"},
+				"west": {"uv": [7.984, 0, 15.999, 0.907], "rotation": 90, "texture": "#particle"},
+				"down": {"uv": [6.758, 0, 16, 0.907], "texture": "#particle"}
+			}
+		},
+		{
+			"from": [7.5, 16.875, -0.005],
+			"to": [8.5, 16.875, 0.85],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8.005, 8.85, 0.45]},
+			"faces": {
+				"up": {"uv": [11.086, 0, 11.992, 0.898], "rotation": 270, "texture": "#2", "tintindex": 0}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "wire",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [
+				{
+					"name": "wire",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"children": [0, 1, 2, 3, 4]
+				}
+			]
+		}
+	]
+}
