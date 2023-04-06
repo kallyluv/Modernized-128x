@@ -14,6 +14,8 @@ jobs:
       - name: Semantic Version
         id: version
         uses: ncipollo/semantic-version-action@v1.0.1
+        with:
+          tag: v1.0.0
       - name: Release Pack
         uses: ncipollo/release-action@v1
         with:
