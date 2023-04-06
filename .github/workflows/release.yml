@@ -12,8 +12,8 @@ jobs:
           filename: "Modernized128x.zip" # default is release.zip
           exclusions: "*.git*"
       - name: Semantic Version
-        uses: ncipollo/semantic-version-action@v1.0.1
         id: version
+        uses: ncipollo/semantic-version-action@v1.0.1
       - name: Release Pack
         uses: ncipollo/release-action@v1
         with:
