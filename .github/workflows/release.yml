@@ -3,6 +3,8 @@ on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@master
       - name: Zip Pack
@@ -15,6 +17,4 @@ jobs:
         uses: ncipollo/release-action@v1
         with:
           artifacts: "Modernized128x.zip"
-          token: ${{ secrets.GITHUB_TOKEN }}
-          commit: "main"
           generateReleaseNotes: true
