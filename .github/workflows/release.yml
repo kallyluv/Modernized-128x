@@ -20,5 +20,5 @@ jobs:
           artifacts: "Modernized128x.zip"
           token: ${{ secrets.GITHUB_TOKEN }}
           commit: "main"
-          tag: ${{ version.outputs.tag }}
+          tag: ${{ steps.version.outputs.tag }}
           generateReleaseNotes: true
