@@ -16,6 +16,5 @@ jobs:
         with:
           artifacts: "Modernized128x.zip"
           token: ${{ secrets.GITHUB_TOKEN }}
-          tag: "automatic-release"
           commit: "main"
           generateReleaseNotes: true
