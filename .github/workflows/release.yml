@@ -3,8 +3,6 @@ on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
       - uses: actions/checkout@master
       - name: Zip Pack
@@ -13,8 +11,14 @@ jobs:
           type: "zip"
           filename: "Modernized128x.zip" # default is release.zip
           exclusions: "*.git*"
+      - name: Semantic Version
+        uses: ncipollo/semantic-version-action@v1.0.1
+        id: version
       - name: Release Pack
         uses: ncipollo/release-action@v1
         with:
           artifacts: "Modernized128x.zip"
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit: "main"
+          tag: ${{ version.outputs.tag }}
           generateReleaseNotes: true
